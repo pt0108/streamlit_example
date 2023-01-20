@@ -31,10 +31,6 @@ st.write(
     """
 )
 
-st.write(
-    
-)
-
 st.image("https://www.themoviedb.org/t/p/original/70xTjXpb0kfOhTRJqKwDYSG8Kle.jpg")
 
 ## Play audio file.
