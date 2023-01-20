@@ -30,3 +30,28 @@ st.write(
     * 실행 결과 : <https://qus0in-streamlit-example-00-startapp-dmtm98.streamlit.app/>
     """
 )
+
+st.write(
+    
+)
+
+st.image("https://www.themoviedb.org/t/p/original/70xTjXpb0kfOhTRJqKwDYSG8Kle.jpg")
+
+## Play audio file.
+# audio_path = os.path.dirname(os.path.abspath(__file__)) + "/audio.MP3"
+# audio_file = open(audio_path).read()
+# st.audio(audio_file, format='audio/mp3')
+
+def main() :
+    
+    audio_file = open('./audio.MP3', 'rb')
+    st.audio( audio_file.read() , format='audio/mp3')
+
+if __name__ == "__main__" :
+    main()
+
+st.write(
+    """
+    ***최종 프로젝트까지 힘내자!***
+    """
+)
